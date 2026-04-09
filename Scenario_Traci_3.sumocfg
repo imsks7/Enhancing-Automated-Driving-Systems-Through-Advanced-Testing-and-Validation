@@ -1,0 +1,24 @@
+<configuration>
+    <input>
+        <net-file value="Tangenziale.net.xml"/>
+        <route-files value="Tangenziale_3.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+
+ 	<processing>
+		<xml-validation value="never"/>
+        <step-length value="0.1"/>
+		
+    </processing>
+     <traci_server>
+        <remote-port value="8873"/>
+    </traci_server>
+
+
+
+</configuration>

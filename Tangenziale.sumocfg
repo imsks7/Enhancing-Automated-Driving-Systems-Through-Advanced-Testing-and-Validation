@@ -1,0 +1,20 @@
+<configuration>
+    <input>
+        <net-file value="Tangenziale.net.xml"/>
+        <route-files value="Tangenziale.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="1800"/>
+    </time>
+
+
+ 	<processing>
+		<xml-validation value="never"/>
+        <step-length value="0.1"/>
+    </processing>
+
+ <gui-settings-file value="viewsettings.xml"/>
+
+</configuration>
